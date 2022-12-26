@@ -14,7 +14,7 @@ function solveEquation(a, b, c) {
   }
 }
 
-solveEquation(-5,-10,5);
+console.log(solveEquation(-5,-10,5));
 
 function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   let payment;
@@ -32,4 +32,4 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
   return sumCount; 
   
 }
-calculateTotalMortgage(10, 15, 7000, 3)
+console.log(calculateTotalMortgage(10, 15, 7000, 3));
